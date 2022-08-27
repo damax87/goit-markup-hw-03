@@ -121,9 +121,14 @@ margin-left: 50px;
 }
 .hero {
   background-color: var(--cl-hero-foot-bg);
+  padding-top: 200px;
+  padding-bottom: 200px;
  }
 .hero-title {
-   font-weight: 900;
+  width: 696px;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
   text-align: center;
@@ -189,6 +194,9 @@ margin-left: 50px;
   letter-spacing: 0.03em;
   color: var(--main-cl-grey);
 }
+.example {
+  padding-top: 0;
+}
 .example-list {
   display: flex;
 }
@@ -232,7 +240,7 @@ margin-left: 50px;
   
 }
 .crew-name {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -248,9 +256,11 @@ margin-left: 50px;
     }
 .foot {
    background-color: var(--cl-hero-foot-bg);
+   padding: 60px 0;
+   
    }
  .logo-foot {
-  padding-top: 60px;
+  
   margin-bottom: 20px;
  }
 .logo-web-foot {
@@ -270,8 +280,6 @@ margin-left: 50px;
   color: var(--cl-white);
 }
 .foot-address {
-  margin-bottom: 9px;
-
   font-size: 14px;
   line-height: calc(24 / 14);
   font-style: normal;
@@ -279,8 +287,7 @@ margin-left: 50px;
   color: var(--cl-white);
 }
  .foot-email {
-  margin-bottom: 9px;
-
+  margin-top: 9px;
   font-size: 14px;
   line-height: calc(24 / 14);
   font-style: normal;
@@ -292,6 +299,7 @@ margin-left: 50px;
   color: var(--cl-mark);
 }
 .foot-tel {
+  margin-top: 9px;
   font-size: 14px;
   line-height: calc(24 / 14);
   font-style: normal;
@@ -352,6 +360,7 @@ margin-left: 50px;
   letter-spacing: 0.06em;
 }
 .project-special {
+  padding-top: 4px;
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
